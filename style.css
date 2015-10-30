@@ -1,47 +1,58 @@
-<!DOCTYPE html>
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.4.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
-<header id="header">
-    <!-- Lien vers la feuille de style pour le design -->
-    <link rel="stylesheet" href="style.css" />
-    <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
-    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
-    
-    <!-- Zone Coordonnées + icones reseaux sociaux + connexion-->
-    <div id="header_haut">
-        <!-- Zone Coordonnées -->
-        <div id="coordonnees">
-            <span>00 00 00 00 00</span>
-            <span>email@email.fr</span>
-        </div>
-        
-        <!-- Zone icones -->
-        <div id="icones_header">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-github"></i>
-            <i class="fa fa-twitter"></i>
-        </div>
-        
-        <!-- Zone connexion -->
-        <div id="connexion">
-            <span><a href="connexion.html">Connexion</a></span>
-        </div>
-    </div>
-    
-    <!-- Zone logo + menu-->
-    <div id="header_bas">
-        <!-- Zone logo -->
-        <div id="logo-bts">
-            <span><img src="logo-bts.png" /></span>   
-        </div>
-        
-        <!-- Zone menu -->
-        <nav id="menu">
-            <ul>
-                <li><a href="accueil.html">ACCUEIL</a></li>
-                <li><a href="bts_sio.html">BTS SIO</a></li>
-                <li><a href="nos_espaces.html">NOS ESPACES</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+#header {
+    display: block;
+}
+
+#header_haut {
+    background-color: #333;
+    color: #FFF;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+#header_bas {
+    background-color: #FFF;
+   
+}
+
+#menu, #logo-bts {
+    float:left;
+}
+
+
+#menu  a{
+	text-decoration: none;
+	color: black;
+	float: left;
+    padding-left: 10px;
+}
+
+#menu li {
+	display: inline;
+}
+
+#coordonnees, #icones_header, connexion {
+    float: left;
+}
+
+#coordonnees, #icones_header {
+    margin-left: 5%;
+    padding-right: 2%;
+}
+
+#connexion {
+    position: relative;
+    right:auto;
+}
+
+#menu,.active a {
+    border-bottom: 3px, solid, blue; 
+    color: red;
+}
