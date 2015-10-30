@@ -5,3 +5,13 @@ Le **BTS Informatique** a été réformé pour laisser la place au **BTS Service
 ## Les Outils
 * Le **Système de Gestion de Contenu**, ou CMS, utilisé est [**WordPress**](https://fr.wordpress.org/)
 * L'editeur de text modern et open source [**Brackets**](http://brackets.io/)
+* Le Gestionnaire de Version [**Gitlab**](https://about.gitlab.com/)
+
+## Langages de Programmation
+* **CSS** (Cascading Style Sheets)
+* **HTML** (Hypertext Markup Language)
+* **PHP** (Hypertext Preprocessor)
+* **JavaScript**
+
+## Auteurs
+Zed'Ash
