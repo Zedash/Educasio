@@ -14,4 +14,6 @@ Le **BTS Informatique** a été réformé pour laisser la place au **BTS Service
 * **JavaScript**
 
 ## Auteurs
-Zed'Ash
+* Zed'Ash
+* Quentin771
+* Mohamed Ben Driss
