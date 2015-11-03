@@ -1,47 +1,37 @@
 <!DOCTYPE html>
-
-<header id="header">
-    <!-- Lien vers la feuille de style pour le design -->
-    <link rel="stylesheet" href="style.css" />
-    <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
-    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
-    
-    <!-- Zone Coordonnées + icones reseaux sociaux + connexion-->
-    <div id="header_haut">
-        <!-- Zone Coordonnées -->
-        <div id="coordonnees">
-            <span>00 00 00 00 00</span>
-            <span>email@email.fr</span>
-        </div>
-        
-        <!-- Zone icones -->
-        <div id="icones_header">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-github"></i>
-            <i class="fa fa-twitter"></i>
-        </div>
-        
-        <!-- Zone connexion -->
-        <div id="connexion">
-            <span><a href="connexion.html">Connexion</a></span>
-        </div>
-    </div>
-    
-    <!-- Zone logo + menu-->
-    <div id="header_bas">
-        <!-- Zone logo -->
-        <div id="logo-bts">
-            <span><img src="logo-bts.png" /></span>   
-        </div>
-        
-        <!-- Zone menu -->
-        <nav id="menu">
-            <ul>
-                <li><a href="accueil.html">ACCUEIL</a></li>
-                <li><a href="bts_sio.html">BTS SIO</a></li>
-                <li><a href="nos_espaces.html">NOS ESPACES</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Zed'Ash">
+        <meta name="description" content="Site internet du BTS SIO baser sur le thème Educasio© par les étudiant d'Itis Formation.">
+        <meta name="keywords" content="BTS,SIO,ITIS,FORMATION,EDUCASIO,ETUDIANT">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+        <title><!--EMPLACEMENT DU CODE PHP POUR RECUPERER LE TITRE DE LA PAGE WORDPRESS--></title>
+    </head>
+    <body>
+        <header>
+            <!--BARRE DE NAVIGATION TOP BAR COMPATIBLE SEO-->
+            <nav class="nav_topbar">
+                <ul id="list_contact_log">
+                    <li class=""><i class="fa fa-phone"></i>&nbsp;01 54 13 05 06</li>
+                    <li class="margeExt_gauche"><i class="fa fa-envelope"></i>&nbsp;contact@bts-sio.fr</li>
+                    <li class="margeExt_xlgauche"><i class="fa fa-facebook"></i></li>
+                    <li class="margeExt_xlgauche"><i class="fa fa-twitter"></i></li>
+                    <li class="margeExt_xlgauche"><i class="fa fa-google-plus"></i></li>
+                    <li><i class="fa fa-sign-in"></i>&nbsp;Connexion</li>
+                </ul>
+            </nav>
+            <!--BARRE DE NAVIGATION PRINCIPALE DES DIFFERANTES PAGES DU SITE, COMPATIBLE SEO-->
+            <nav class="nav_principale">
+            <div class="boite_logo"><img src="images/logo-bts.png" alt="Logo du site BTS-SIO.fr fait par Zed'Ash"></div>
+                <ul id="list_navigation">
+                    <li class="margeInt_haut margeInt_bas margeInt_droit margeInt_gauche ">Accueil</li>
+                    <li class="margeInt_haut margeInt_bas margeInt_droit margeInt_gauche ">BTS SIO</li>
+                    <li class="margeInt_haut margeInt_bas margeInt_droit margeInt_gauche ">Nos Espaces</li>
+                    <li class="margeInt_haut margeInt_bas">Contact</li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+</html>
