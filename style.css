@@ -101,3 +101,52 @@ header {
     display:inline-block;
     float:left;
 }
+
+/********************
+*  STYLE DU FOOTER  *
+********************/
+
+footer {
+    width : 100%;
+    position: absolute;
+    bottom : 0px;
+    background-color: #E0E0E0;
+}
+
+.boite_logo {
+    width:100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.boite_principale {
+    margin: auto;
+    width:90%;
+}
+
+.boite_une, .boite_deux, .boite_trois, .boite_quatre {
+    display: inline-block;
+    font-family: Educasio Moyen, sans-serif;
+    padding: 0;
+    margin: 0;
+    width:24.7%;
+    text-align: center;
+    box-shadow: 1px 1px 3px #555;
+    background-color: #FFF;
+    border-radius: 5px 5px 0px 0px;
+    height:50%;
+}
+.copyright {
+    text-align: center;
+    font-family: Educasio Moyen, sans-serif;
+}
+
+.titre {
+    background-color: #333;
+    color: #FFF;
+    position:relative;
+    top:0px;
+    margin-top: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
