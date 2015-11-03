@@ -13,17 +13,17 @@
 
         <div class="boite_deux">
             <h4 class="titre">Titre</h4>
-            <p class="paragraphe">TEXTE 2<p>
+            <p class="paragraphe">TEXTE 2</p>
         </div>
 
         <div class="boite_trois">
             <h4 class="titre">Titre</h4>
-            <p class="paragraphe">TEXTE 3<p>
+            <p class="paragraphe">TEXTE 3</p>
         </div>
 
         <div class="boite_quatre">
             <h4 class="titre">Titre</h4>
-            <p class="paragraphe">TEXTE 4<p>
+            <p class="paragraphe">TEXTE 4</p>
         </div>
     </div>
                 
