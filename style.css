@@ -1,58 +1,103 @@
+/*
+Theme Name: Educasio©
+Theme URI: http://wordpress.org/themes/educasio
+Author: Zed'Creative
+Author URI: http://zed-creative.fr/
+Description: Educasio © est un thème fait pour le site internet BTS SIO propulsé et développé par les étudiants de chez Itis Formation, Educasio © est écrit en CSS, HTML, Javascript et PHP. || Il est compatible avec la dernière version de Wordpress (4.3.1) et est responsive et 'SEO Friendly'.
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: black, education, sio, bts, white, full-width
+Text Domain: educasio
+
+Toutes modification ou utilisation de se thème est strictement interdite sans l'accord de l'auteur.
+*/
+/****************************
+*POLICES D'ECRITURE IMPORTER*
+****************************/
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('../fonts/fontawesome-webfont.eot?v=4.4.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: Educasio Moyen;
+    src: url(fonts/HelveticaCE-Medium.otf);
 }
-
-#header {
-    display: block;
+/****************************
+*CREATION DES MARGES DIVERSE*
+****************************/
+.margeExt_gauche {
+    margin-left: 10px;
 }
-
-#header_haut {
-    background-color: #333;
-    color: #FFF;
-    margin-bottom: auto;
-    margin-top: auto;
+.margeExt_xlgauche {
+    margin-left: 15px;
 }
-
-#header_bas {
-    background-color: #FFF;
-   
+.margeExt_droit {
+    margin-right: 10px;
 }
-
-#menu, #logo-bts {
-    float:left;
+.margeInt_haut {
+    padding-top: 10px;
 }
-
-
-#menu  a{
-	text-decoration: none;
-	color: black;
-	float: left;
+.margeInt_bas {
+    padding-bottom: 10px;
+}
+.margeInt_droit {
+    padding-right: 10px;
+}
+.margeInt_gauche {
     padding-left: 10px;
 }
-
-#menu li {
-	display: inline;
+/****************************
+* STYLE DES BALISES DE BASE *
+****************************/
+body,
+html,
+header,
+.nav_topbar,
+#list_contact_log  {
+    margin:0;
 }
-
-#coordonnees, #icones_header, connexion {
-    float: left;
+header {
+    display:inline-block;
+    border-bottom: 1px solid #555;
+    width:100%;
+    box-shadow: 1px 1px 3px #555;
 }
-
-#coordonnees, #icones_header {
-    margin-left: 5%;
-    padding-right: 2%;
+/****************************
+* STYLE NAVIGATION TOP BAR  *
+****************************/
+.nav_topbar {
+    background-color:#333;
+    color:#FFF;
 }
-
-#connexion {
-    position: relative;
-    right:auto;
+#list_contact_log {
+    font-family: Educasio Moyen,sans-serif;
+    width:80%;
+    margin:auto;
+    padding:10px;
 }
-
-#menu,.active a {
-    border-bottom: 3px, solid, blue; 
-    color: red;
+#list_contact_log li {
+    display:inline-block;
+    list-style: none;
+    font-size:1.2em;
+}
+#list_contact_log li:last-child {
+    float:right;
+}
+/****************************
+*  STYLE NAVIGATION HEADER  *
+****************************/
+.nav_principale {
+    width:80%;
+    margin:auto;
+}
+#list_navigation {
+    float:right;
+}
+#list_navigation li {
+    font-family: Educasio Moyen,sans-serif;
+    display:inline-block;
+    list-style: none;
+    font-size:1.2em;
+    text-transform: uppercase;
+}
+.boite_logo {
+    display:inline-block;
+    float:left;
 }
