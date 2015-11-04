@@ -23,6 +23,7 @@
     <div class="copyright">
         <p>Copyright © 2015 | Développer par Zed'Creative</p>
         </div>
-        </footer>
+        </footer
+        <?php wp_footer(); ?>
 </body>
 </html>
